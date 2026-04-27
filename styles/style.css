@@ -1,26 +1,27 @@
-
-*{
+* {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
+
 }
 
+#navbar {
+    background-color: rgb(145, 0, 0);
+}
 
-
-.erro{
+.erro {
     color: red;
     font-size: 14px;
     text-align: center;
 }
 
-.sucesso{
+.sucesso {
     color: green;
     font-size: 14px;
     text-align: center;
 }
 
-#image{
+#image {
     border-radius: 10px;
     border: solid rgb(235, 229, 229);
-   
-    
+
+
 }
