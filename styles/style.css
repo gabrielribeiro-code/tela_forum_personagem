@@ -1,0 +1,25 @@
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.erro{
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+
+.sucesso{
+    color: green;
+    font-size: 14px;
+    text-align: center;
+}
+
+#image{
+    border-radius: 10px;
+    border: solid black;
+   
+    
+}
