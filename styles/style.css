@@ -1,6 +1,7 @@
 
 *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
 }
 
 
@@ -19,7 +20,7 @@
 
 #image{
     border-radius: 10px;
-    border: solid black;
+    border: solid rgb(235, 229, 229);
    
     
 }
