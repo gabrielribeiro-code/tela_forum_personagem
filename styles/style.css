@@ -1,11 +1,12 @@
+:root {
+    --cor-vermelho: rgb(145, 0, 0);
+}
+
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
-#navbar {
-    background-color: rgb(145, 0, 0);
-}
+/* ===== INDEX ===== */
 
 .erro {
     color: red;
@@ -19,9 +20,24 @@
     text-align: center;
 }
 
-#image {
+#imagem-login {
     border-radius: 10px;
     border: solid rgb(235, 229, 229);
+}
 
+/* ===== MAIN ===== */
 
+#navbar {
+    background-color: var(--cor-vermelho);
+    color: white;
+}
+
+#navbar .navbar-brand,
+#navbar .nav-link {
+    color: white !important;
+}
+
+.navbar-icon {
+    height: 30px;
+    height: 30px;
 }
