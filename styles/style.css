@@ -11,14 +11,11 @@
 /* ===== INDEX ===== */
 
 #body-index{
-   background-image: url(../assets/image/wallpaper5.gif);
+   background-image: url(../assets/image/wallpaper\ \(2\).jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
    background-attachment: fixed;
-   min-width: 100vh;
-   width: 100%;
-
 }
 
 .erro {
