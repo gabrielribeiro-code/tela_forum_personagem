@@ -8,12 +8,21 @@
 
 /* ===== INDEX ===== */
 
+<<<<<<< HEAD
 #body-index {
     background-image: url(../assets/image/wallpaper\ \(2\).jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+=======
+#body-index{
+   background-image: url(../assets/image/wallpaper\ \(2\).jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+>>>>>>> 519aeb808e852ff128dea85c921a797e4bf6d78a
 }
 
 .erro {
