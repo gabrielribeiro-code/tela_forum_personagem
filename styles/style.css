@@ -6,28 +6,14 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
-
 /* ===== INDEX ===== */
 
-<<<<<<< HEAD
 #body-index {
-    background-image: url(../assets/image/wallpaper5.gif);
+    background-image: url(../assets/image/wallpaper\ \(2\).jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-width: 100vh;
-    width: 100%;
-
-=======
-#body-index{
-   background-image: url(../assets/image/wallpaper\ \(2\).jpg);
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
->>>>>>> 84cb38a61b703b76066c51dfc3559ccf40404821
 }
 
 .erro {
@@ -72,10 +58,13 @@
 }
 
 .img-main {
-    transform: rotate(-90deg);
     border: 10px var(--cor-vermelho) solid;
     border-radius: 50px;
     height: 500px;
     width: 500px;
     padding: 10px;
+}
+
+.info-main {
+    font-size: 35px;
 }
