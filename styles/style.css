@@ -53,5 +53,11 @@
 
 .navbar-icon {
     height: 30px;
-    height: 30px;
+    width: 30px;
+}
+
+.titulo-icon {
+    height: 125px;
+    width: 125x;
+    object-fit: contain;
 }
