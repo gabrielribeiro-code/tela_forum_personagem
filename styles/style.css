@@ -10,14 +10,14 @@
 
 /* ===== INDEX ===== */
 
-#body-index{
-   background-image: url(../assets/image/wallpaper5.gif);
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   min-width: 100vh;
-   width: 100%;
+#body-index {
+    background-image: url(../assets/image/wallpaper5.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-width: 100vh;
+    width: 100%;
 
 }
 
@@ -36,7 +36,7 @@
 #imagem-login {
     border-radius: 10px;
     border: solid rgb(235, 229, 229);
-    
+
 }
 
 /* ===== MAIN ===== */
@@ -60,4 +60,13 @@
     height: 125px;
     width: 125x;
     object-fit: contain;
+}
+
+.img-main {
+    transform: rotate(-90deg);
+    border: 10px var(--cor-vermelho) solid;
+    border-radius: 50px;
+    height: 500px;
+    width: 500px;
+    padding: 10px;
 }
