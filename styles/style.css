@@ -28,12 +28,6 @@
     text-align: center;
 }
 
-#imagem-login {
-    border-radius: 10px;
-    border: solid rgb(235, 229, 229);
-
-}
-
 /* ===== MAIN ===== */
 
 #navbar {
@@ -65,21 +59,21 @@
     padding: 10px;
 }
 
+.info-main {
+    font-size: 35px;
+}
+
 
 /* ===== CURIOSIDADES ===== */
 
 .img-curiosidades {
-  
     border: 10px var(--cor-vermelho) solid;
     border-radius: 50px;
     height: 400px;
     width: 400px;
     padding: 10px;
-
 }
 
-#curiosidades{
-
-    font-size: 25px;
-    
+#curiosidades {
+    font-size: 35px;
 }

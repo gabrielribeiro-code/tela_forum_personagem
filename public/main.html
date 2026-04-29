@@ -5,29 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="../assets/image/site-icon.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 
 <body id="body-main">
     <header>
-        <nav id="navbar" class="navbar navbar-expand-lg fixed p-3">
-            <div class="container-fluid">
-
+        <nav id="navbar" class="navbar navbar-expand-lg fixed-top p-3">
+            <div class="container">
                 <a class="navbar-brand d-flex align-items-center gap-2" href="main.html">
-                    <img src="../assets/image/home-icon.png" alt="Home Icon" class="navbar-icon">
+                    <img src="../assets/image/home-icon.png" alt="Home" class="navbar-icon">
                     INÍCIO
                 </a>
-
-                <div class="collapse navbar-collapse">
-                    <div class="navbar-nav">
-                        <a class="nav-link active d-flex align-items-center gap-2" aria-current="page" href="#">
-                            <img src="../assets/image/lupa-icon.png" alt="Lupa Icon" class="navbar-icon">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link d-flex align-items-center gap-2" href="curiosidades.html">
+                            <img src="../assets/image/lupa-icon.png" alt="Curiosidades" class="navbar-icon">
                             Curiosidades
                         </a>
-                        <a class="nav-link active d-flex align-items-center gap-2" href="#">
-                            <img src="../assets/image/chat-icon.png" alt="Chat Icon" class="navbar-icon">
+                        <a class="nav-link d-flex align-items-center gap-2" href="#">
+                            <img src="../assets/image/chat-icon.png" alt="Discussões" class="navbar-icon">
                             Discussões
                         </a>
                     </div>
@@ -36,55 +37,37 @@
         </nav>
     </header>
 
-    <main class="mt-3">
-        <div id="titulo-main" class="d-flex justify-content-center align-items-center gap-3">
-            <img class="titulo-icon" src="../assets/image/tripulacao-icon.png" alt="WB Tripulação Icon">
+    <main class="container mt-5">
+        <div id="titulo-main" class="d-flex justify-content-center align-items-center gap-3 mb-5">
+            <img class="titulo-icon d-none d-sm-block" src="../assets/image/tripulacao-icon.png" alt="Ícone">
             <h1>EDWARD NEWGATE: O BARBA BRANCA</h1>
-            <img class="titulo-icon" src="../assets/image/tripulacao-icon.png" alt="WB Tripulação Icon">
+            <img class="titulo-icon d-none d-sm-block" src="../assets/image/tripulacao-icon.png" alt="Ícone">
         </div>
 
-        <section class="p-5 pt-0">
-            <div class="d-flex gap-4 info-main align-items-center mt-3">
-                <img id="img-rotate" class="img-main" src=" ../assets/image/barba_branca_aura.jpg"
-                    alt="Barba Branca Aura">
-                <p>Edward Newgate mais conhecido como o Barba branca, é um dos quatro imperadores do mar e recebeu o
-                    título de “Homem mais forte do mundo” por conta de seu estilo de vida resiliente e seus princípios
-                    como honra e por tratar os membros de sua tripulação como sua família, por ser alguém que luta por
-                    quem ama até o final, mesmo estando velho e doente.
-                    Portador da Gura Gura No Mi, a fruta que dá ao usuário poder de criar terremotos devastadores.
-                </p>
+        <section class="info-main">
+            <div class="d-flex flex-column flex-md-row gap-4 align-items-center mb-5">
+                <img class="img-main" src="../assets/image/barba_branca_aura.jpg" alt="Barba Branca Aura">
+                <p>Edward Newgate, mais conhecido como Barba Branca, é um dos quatro imperadores do mar e recebeu o
+                    título de “Homem mais forte do mundo”. Ele é admirado por seu estilo de vida resiliente e seus
+                    princípios de honra, tratando os membros de sua tripulação como sua própria família.</p>
             </div>
 
-            <div class="d-flex gap-4 info-main align-items-center mt-3">
-                <img class="img-main" src="../assets/image/barba_vs_roger.jpg" alt="Barba Branca ">
-                <p>Nasceu e cresceu na ilha de Sphinx como um órfão miserável.Seu maior desejo era ter uma família.Após
-                    sair de Sphinx ele se juntou ao pirata Rocks.D.Xebec, e assim navegou por 8 anos.No entanto após a
-                    queda de Rocks ele fundou sua própria tripulação e acolheu em seu navio órfãos e
-                    desamparados.Navegou novamente pelos mares, passou a ser chamado de Barba Branca e foi um dos poucos
-                    seres poderosos o suficiente para rivalizar com Gol.D.Roger, o Rei Dos Piratas.
-                </p>
+            <div class="d-flex flex-column flex-md-row-reverse gap-4 align-items-center mb-5">
+                <img class="img-main" src="../assets/image/barba_vs_roger.jpg" alt="Rivalidade com Roger">
+                <p>Nascido em Sphinx como um órfão, seu maior desejo era ter uma família. Após a queda dos piratas
+                    Rocks, ele fundou sua própria tripulação. Foi um dos poucos seres poderosos o suficiente para
+                    rivalizar com Gol D. Roger, o Rei dos Piratas.</p>
             </div>
 
-            <div class="d-flex gap-4 info-main align-items-center mt-3">
-                <img class="img-main" src="../assets/image/barba_vs_akainu.jpg" alt="Barba Branca ">
-                <p>Mais tarde foi um dos 4 piratas que ganharam o título de Yonkou(imperador do mar).Por fim, morreu em
-                    pé heroicamente, em uma batalha para libertar seu filho Ace antes que fosse executado pela marinha
-                    na ilha de Marineford pelas mãos do almirante Akainu junto ao seu filho que morreu após confrontar
-                    Akainu por vingança.Ele pode não conseguir salvar o seu filho, mas reviveu a esperança nos mares
-                    para os piratas que cobiçavam o One Piece, o lendário tesouro deixado por Gol.D.Roger. Em seus
-                    momentos finais ele declara: “O One Piece Existe!!!!”
-                </p>
+            <div class="d-flex flex-column flex-md-row gap-4 align-items-center mb-5">
+                <img class="img-main" src="../assets/image/barba_vs_akainu.jpg" alt="Batalha Final">
+                <p>Morreu em pé heroicamente em Marineford. Seus momentos finais foram marcantes ao declarar para o
+                    mundo inteiro: <strong>“O One Piece existe!”</strong>, reacendendo a chama da era dos piratas.</p>
             </div>
         </section>
     </main>
 
-    <footer>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="scripts/script.js"></script>
 </body>
 
