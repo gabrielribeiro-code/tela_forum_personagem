@@ -67,3 +67,22 @@
     width: 500px;
     padding: 10px;
 }
+
+
+/* ===== CURIOSIDADES ===== */
+
+.img-curiosidades {
+  
+    border: 10px var(--cor-vermelho) solid;
+    border-radius: 50px;
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+
+}
+
+#curiosidades{
+
+    font-size: 25px;
+    
+}
