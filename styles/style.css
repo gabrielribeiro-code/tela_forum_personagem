@@ -30,8 +30,11 @@
     text-align: center;
 }
 
+#imagem-login {
+    border-radius: 10px;
+    border: solid rgb(235, 229, 229);
 
-    
+}
 
 /* ===== MAIN ===== */
 
@@ -54,4 +57,13 @@
     height: 125px;
     width: 125x;
     object-fit: contain;
+}
+
+.img-main {
+    transform: rotate(-90deg);
+    border: 10px var(--cor-vermelho) solid;
+    border-radius: 50px;
+    height: 500px;
+    width: 500px;
+    padding: 10px;
 }
