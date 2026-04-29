@@ -6,16 +6,14 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
-
 /* ===== INDEX ===== */
 
-#body-index{
-   background-image: url(../assets/image/wallpaper\ \(2\).jpg);
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
+#body-index {
+    background-image: url(../assets/image/wallpaper\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .erro {
@@ -60,7 +58,6 @@
 }
 
 .img-main {
-    transform: rotate(-90deg);
     border: 10px var(--cor-vermelho) solid;
     border-radius: 50px;
     height: 500px;
