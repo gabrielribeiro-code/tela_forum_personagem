@@ -30,6 +30,8 @@ form.addEventListener('submit', function(e){
          mensagem.innerHTML = "<div class = 'sucesso' <p> Login feito com Sucesso! </p> </div>";
          //Aqui é caso o usuario coloque o nome correto barbabranca;
 
+         window.location.replace("file:///C:/Users/gabriel_ribeiro16/Desktop/tela_forum_personagem/public/main.html#");
+
     }else{
 
          mensagem.innerHTML = "<div class = 'erro' <p> Dados Errados! Usuário e Senha estão errados! </p> </div>";
