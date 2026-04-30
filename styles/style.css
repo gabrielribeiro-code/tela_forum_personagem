@@ -6,6 +6,10 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+h1 {
+    font-size: 67px;
+}
+
 /* ===== INDEX ===== */
 
 #body-index {
@@ -46,8 +50,8 @@
 }
 
 .titulo-icon {
-    height: 125px;
-    width: 125x;
+    height: 150px;
+    width: 150x;
     object-fit: contain;
 }
 
@@ -71,6 +75,14 @@
     border-radius: 50px;
     height: 400px;
     width: 400px;
+    padding: 10px;
+}
+
+.img-bandeira {
+    border: 10px var(--cor-vermelho) solid;
+    border-radius: 50px;
+    height: 250px;
+    width: 250px;
     padding: 10px;
 }
 
