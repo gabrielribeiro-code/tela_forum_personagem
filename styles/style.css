@@ -6,11 +6,14 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-h1 {
-    font-size: 67px;
+body {
+    padding-top: 120px;
 }
 
-/* ===== INDEX ===== */
+h1 {
+    font-size: 67px;
+    margin-bottom: 0;
+}
 
 #body-index {
     background-image: url(../assets/image/wallpaper\ \(2\).jpg);
@@ -32,8 +35,6 @@ h1 {
     text-align: center;
 }
 
-/* ===== MAIN ===== */
-
 #navbar {
     background-color: var(--cor-vermelho);
     color: white;
@@ -51,7 +52,7 @@ h1 {
 
 .titulo-icon {
     height: 150px;
-    width: 150x;
+    width: 150px;
     object-fit: contain;
 }
 
@@ -61,14 +62,12 @@ h1 {
     height: 500px;
     width: 500px;
     padding: 10px;
+    object-fit: cover;
 }
 
 .info-main {
     font-size: 35px;
 }
-
-
-/* ===== CURIOSIDADES ===== */
 
 .img-curiosidades {
     border: 10px var(--cor-vermelho) solid;
@@ -76,6 +75,7 @@ h1 {
     height: 400px;
     width: 400px;
     padding: 10px;
+    object-fit: cover;
 }
 
 .img-bandeira {
@@ -84,6 +84,7 @@ h1 {
     height: 250px;
     width: 250px;
     padding: 10px;
+    object-fit: cover;
 }
 
 #curiosidades {
