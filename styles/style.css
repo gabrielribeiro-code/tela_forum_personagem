@@ -1,3 +1,5 @@
+/* ===== ROOT ===== */
+
 :root {
     --cor-vermelho: rgb(145, 0, 0);
 }
@@ -14,6 +16,8 @@ h1 {
     font-size: 67px;
     margin-bottom: 0;
 }
+
+/* ===== INDEX ===== */
 
 #body-index {
     background-image: url(../assets/image/wallpaper\ \(2\).jpg);
@@ -34,6 +38,8 @@ h1 {
     font-size: 14px;
     text-align: center;
 }
+
+/* ===== MAIN ===== */
 
 #navbar {
     background-color: var(--cor-vermelho);
@@ -69,6 +75,8 @@ h1 {
     font-size: 35px;
 }
 
+/* ===== CURIOSIDADES ===== */
+
 .img-curiosidades {
     border: 10px var(--cor-vermelho) solid;
     border-radius: 50px;
@@ -90,3 +98,5 @@ h1 {
 #curiosidades {
     font-size: 35px;
 }
+
+/* ===== DISCUSSÕES ===== */
