@@ -30,7 +30,7 @@ form.addEventListener('submit', function(e){
          mensagem.innerHTML = "<div class = 'sucesso'> <p> Login feito com Sucesso! </p> </div>";
          //Aqui é caso o usuario coloque o nome correto barbabranca;
 
-         window.location.href = "https://gabrielribeiro-code.github.io/tela_forum_personagem/";
+         window.location.href = "https://gabrielribeiro-code.github.io/tela_forum_personagem/public/main.html";
 
     }else{
 
@@ -41,6 +41,31 @@ form.addEventListener('submit', function(e){
 
     
 document.getElementById("form-login").reset();
+});
+
+//lógica para criar um comentário na aba de discussões
+
+function enviarComentario(){
+
+    let texto = document.getElementById("comentario").value;
+    //aqui nos pegamos o texto da outra pagina pelo id
+
+    if(texto =="") return; 
+    // aqui se nao colocarem nada, faz nada
+
+    let novo = document.createElement("p");
+    //aqui é para criar um comentário
+
+    novo.innerText = texto;
+    //aqui colocamos o texto dentro
+
+    document.getElementById("area-comentarios").appendChild(novo);
+// aqui é para adicionar na tela 
+// O appendChild serve justamente para jogar na tela
+
+document.getElementById("comentario").value = "";
+// aqui é para limpar o comentário.
+
+}
 
         
-})
