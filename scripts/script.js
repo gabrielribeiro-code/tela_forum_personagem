@@ -20,12 +20,12 @@ if (form) {
 
         if (nome === usuarioCorreto && senha === senhaCorreta) {
             mensagem.innerHTML = "<div class='sucesso'><p>Login feito com Sucesso!</p></div>";
-            window.location.href = "main.html";
+            window.location.href = "https://gabrielribeiro-code.github.io/tela_forum_personagem/public/main.html";
         } else {
             mensagem.innerHTML = "<div class='erro'><p>Dados Errados! Usuário e Senha estão errados!</p></div>";
-        }
 
-        form.reset();
+            form.reset();
+        }
     });
 }
 
