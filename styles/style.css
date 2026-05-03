@@ -27,6 +27,11 @@ h1 {
     background-attachment: fixed;
 }
 
+.borda {
+    border: 6.7px solid var(--cor-vermelho);
+    border-radius: 25px;
+}
+
 .erro {
     color: red;
     font-size: 14px;
@@ -100,3 +105,20 @@ h1 {
 }
 
 /* ===== DISCUSSÕES ===== */
+
+.comentarios-container {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#comentario {
+    resize: none;
+    height: 100px;
+}
+
+.discussao {
+    background-color: #f4f4f4;
+    border-left: 6px solid var(--cor-vermelho);
+    border-radius: 5px;
+    padding: 15px 20px;
+}
